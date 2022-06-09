@@ -4,10 +4,16 @@ suppressPackageStartupMessages({
   library(stringr)
 })
 
-## variables I need for my site 
-data <- readr::read_csv('important_data.csv')
+# Set up and setting root directory
+knitr::opts_chunk$set(cache = TRUE, warning = FALSE, 
+                      message = FALSE, cache.lazy = FALSE)
 
+knitr::opts_knit$set(root.dir="~/Documents/GitHub/mjacinto-website")
 
-## knitr options I want set as default for all ('global') code chunks
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-
+library(dplyr)
+library(rvest)
+library(dplyr)
+library(tidyverse)
+library(magick)
+library(reticulate)
+library(knitr)

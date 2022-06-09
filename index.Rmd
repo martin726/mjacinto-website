@@ -1,30 +1,38 @@
 ---
-title: "Making free websites with RStudio's R Markdown"
-author:  "[Julie Lowndes](https://github.com/jules32) at [NCEAS](https://www.nceas.ucsb.edu/), 12/14/16"
-output:
-  html_document:
-    fig_width: 1
+title: "Home"
 ---
 
+<style>
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+</style>
+
+<figure_side style = "float: right">
+<img src="images/mj.photo.2.jpg" width="300px">
+</figure_side>
+
+<left><h2> ¡Hola y bienvenidos! </h2></center>
+
+<font size="4.5">My name is Martín Jacinto and I am a proud first-generation college graduate, former community college transfer student, and proud son of Mexican immigrants. I am also proud of my hometown of [Santa Paula, CA](https://spcity.org/).
+
+In 2022, I earned my Ph.D. in Sociology from the University of California, Irvine. Currently, I am an Assistant Professor of Sociology at California State University, Chico. My primary teaching and research specializations include globalization, development, economic sociology, social network analysis, inequality and stratification, and quantitative research methods. I am also an experienced researcher specializing in end-to-end design and execution of mixed methods research (quantitative and qualitative) including survey design and analysis, Bayesian statistics, time-series, and analysis of social networks. Finally, I'm passionate about using data to tell stories that engage audiences with rich, high-quality content and accessible language. 
+
+[CV](static/files/CV_main.pdf)
+</font>
+
 ----
 
-It's possible to create well-designed websites for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and hosting them on [Github](http://github.com). This is very new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
-
-***Creating websites with R Markdown can be done without knowing R or HTML, CSS, etc,*** and that's where we'll start. However, R Markdown integrates with these tools so the more you know the more complex and beautiful your website can be. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout. 
-
-The best way to learn is to follow along with your own laptop, but all are welcome. We'll spend half the time with the tutorial and half the time for you to work on your own website and get help. If you bring your laptop please do this beforehand: 
-
-1. install [RStudio](https://www.rstudio.com/products/rstudio/download/)
-1. create a [GitHub]((http://github.com)) account ([advice](http://happygitwithr.com/github-acct.html))
-1. set up your computer to talk to GitHub
-    - have RStudio linked directly (preferred) ([instructions sections 8-14](http://happygitwithr.com/hello-git.html))
-    - or install the [Desktop App](https://desktop.github.com/)
-    - or be familiar with git commands for the command line ([tutorial](https://try.github.io/levels/1/challenges/1))
-
-----
-
-
-**Examples:**
-
-We have been using R Markdown for the Ocean Health Index:  [**ohi-science.org/ohi-global**](http://ohi-science.org/ohi-global).  
-And R Markdown is much more than just websites -- here's a [**one-minute video about R Markdown**](http://rmarkdown.rstudio.com/lesson-1.html) to get you excited. 
+###### This website was last updated on `r format(Sys.Date(), '%B %d, %Y')`

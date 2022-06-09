@@ -1,19 +1,27 @@
-name: "R Markdown Websites Tutorial"
+name: "Martín Jacinto"
 navbar:
-  title: "HOME"
+  title: "Martín Jacinto"
   left:
-    - text: "First Observations"
-      href: first_observations.html
-    - text: "Basic Workflow"
-      href: basic_workflow.html
-    - text: "Getting Sophisticated"
-      href: getting_sophisticated.html
-    - text: "Your Turn"
-      href: your_turn.html
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Research"
+      href: Research.html
+    - text: "Teaching"
+      href: Teaching.html
+    - text: "Mentoring and Service"
+      href: Mentoring_and_Service.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<mjacinto@csuchico.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/martin726/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/martinjacinto/
+      
 output_dir: "."
 output:
   html_document:
-    theme: yeti
+    theme: flatly
     highlight: textmate
 #    include:
 #      after_body: _footer.html
