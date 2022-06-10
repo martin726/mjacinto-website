@@ -21,10 +21,8 @@ title: "Home"
 </style>
 
 <figure_side style = "float: right">
-<img src="images/mj.photo.2.jpg" width="300px">
+<img src="images/mj.photo.2.jpg" width="300px" HSPACE=30 VSPACE=30 border="1"/>
 </figure_side>
-
-<left><h2> ¡Hola y bienvenidos! </h2></center>
 
 <font size="4.5">My name is Martín Jacinto and I am a proud first-generation college graduate, former community college transfer student, and proud son of Mexican immigrants. I am also proud of my hometown of [Santa Paula, CA](https://spcity.org/).
 
