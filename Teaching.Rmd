@@ -1,21 +1,54 @@
 ---
-title: "Teaching"
+title: "TEACHING"
 ---
 
-<h2>**Teaching as a Social Act**</h2>
+<h3>**TEACHING PHILOSOPHY**</h3>
 I am the son of immigrant farm workers from Mexico and a first-generation college student. My academic trajectory began at [Ventura Community College](https://www.venturacollege.edu/) and am proud to be a former community college student. Well-aware and sympathetic to the needs of a growing diverse student population, I strive to engage with these students and nurture meaningful mentoring relationships that help them succeed academically and professionally. Additionally, I acknowledge that pedagogical approaches must continually grow and develop to adapt to the dynamic needs of students. 
 
 ----
 
-<h2>**Pedagogical Development**</h2>
+<h3>**PEDAGOGICAL DEVELOPMENT**</h3>
 
+<h4>**Pedagogical Fellow - 2019-2020**</h4>
 
+ * Facilitated interactive workshops designed to provide new Teaching Assistants (TAs) with skills and information that helped them jumpstart their teaching careers at the UC Irvine.
+
+* Assessed other fellows’ teaching performance by conducting in-class observation of their teaching then provided one-on-one consultation and feedback
+
+* Worked with department director on developing an application and selection process of new Pedagogical Fellows that protected against selection bias, created an inclusive experience, and streamlined an effective interviewing process 
+
+<h4>**DTEI Summer Fellows Program Coordinator - 2020-2021**</h4>
+
+* Supported the university in fast-tracking the development of a pedagogical training program that prepares faculty and graduate students to effectively transition to online remote instruction 
+
+* Managed and supervised the pedagogical training of 50 fellows and faculty from various disciplines across different areas such as STEM, Social Sciences, Humanities and the Arts.
 
 ---
 
+<h3>**PROFESSIONAL EXPERIENCE**</h3>
+
+<h2><span style="color: #002A5E;">**Instructor**</span></h2>
+
+### California State University, Long Beach - 2021-2022
+  
+  * Modern Sociological Theory (in-person)
+  * Global Conflict and Resolution (in-person)
+  * Global Sociology (in-person)
+  * Elementary Statistics (in-person and online) 
+  
+### California State University, Dominguez Hills - 2018-2021
+
+  * Global Organizations and Social Processes (in-person)
+  * Globalization: Theory and Research (in-person)
+  
+### University of California, Irvine - 2019-2020
+
+  * Sociology/Anthropology 10B: Statistics and Probability, II (online) 
+  * Statistics Bootcamp Refresher (in-person, online) 
+
 <h2><span style="color: #002A5E;">**Teaching Assistant**</span></h2>
 
-### University of California, Irvine
+### University of California, Irvine - 2016-2022
 
   * Graduate Statistics for Sociology and Demographic Analysis, I, II, III
   * Statistics for Sociology, I, II, III
