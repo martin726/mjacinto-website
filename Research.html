@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Martín Jacinto</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="Research.html">Research</a>
+</li>
+<li>
+  <a href="Teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="Mentoring_and_Service.html">Mentoring and Service</a>
+</li>
+<li>
+  <a href="mailto:&lt;mjacinto@csuchico.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/martin726/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/martinjacinto/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<hr />
+<p>Sociologists have long been interested in the effects of economic
+globalization on the lives of local communities across the world. Over
+the past 30 years, growing international trade has resulted in greater
+worldwide integration of national, regional, and domestic economies into
+the world economy. As a result, multilateral trade has become reliant on
+large and complex interconnected networks of production and trade in
+which the contemporary world economy now rests upon. Yet, despite
+unprecedented economic globalization in recent years, greater
+interconnectedness has reshaped not eradicated economic inequalities
+between and within nation-states.</p>
+<p>Economic markets are now more global than ever before. People, firms,
+organizations, and governments invest in markets all over the world. As
+a consequence, economic downturns in one country transmit across the
+globe at an unprecedented speed and magnitude. Case in point, the 2008
+collapse of the US housing market quickly spread across the world
+economy. The economic globalization of the past 30 years laid the
+groundwork for the worldwide market turmoil that came from the 2008-2009
+Global Economic Crisis. However, the literature remains unclear as to
+the long-lasting effects of the 2008-2009 global economic crisis on
+economic globalization.</p>
+<p>My research applies a social network perspective to triangulate a
+link between economic globalization, economic crises, and economic
+development at both the macro- and micro-levels of the world economy.
+Following a social network approach, I conceptualize the world economy
+as comprised of a large and complex network of commerce; in this case,
+international trade. I seek to answer the following:</p>
+<ul>
+<li><em>How did the 2008-2009 Global Economic Crisis affect inequalities
+between and within countries?</em></li>
+<li><em>Did the 2008 impede further economic globalization in the world
+economy? Or did the crisis gave way to greater globaliztion?</em></li>
+<li><em>In what ways did these global networks respond and adapt to a
+large-scale global economic crisis?</em></li>
+</ul>
+<p>Below are snapshots of my research projects that are dedicated to the
+study of crisis, globalization, and inequality.</p>
+<hr />
+<div
+id="density-and-centralization-in-the-international-trade-network-after-the-2008-2009-gec"
+class="section level2">
+<h2><span style="color: #002A5E;"><strong>Density and Centralization in
+the International Trade Network after the 2008-2009
+GEC</strong></span></h2>
+<p><em>Did the 2008-2009 global economic crisis make the world economy
+less interconnected?</em> The collapse of the US subprime mortgage
+market triggered a global economic recession that brought the largest
+economies in the world to near collapse. The crisis’ widespread impact
+on the world economy underscored the role of economic globalization–in
+the form of globalized trade, production, and finance–in facilitating
+the speed and transmission of the crisis’ widespread impact. While there
+is considerable agreement that the crisis had an effect on economic
+relations between markets, nation-states, firms, and regions, there is
+less agreement on how, much less whether, the crisis affected this
+long-standing trend of greater global interconnectedness. Two central
+research questions guide this investigation. First, does the
+international network continually exhibit a significant decrease,
+increase, or no change in global interconnectedness? Second, does the
+world economy, as a result, exhibit a more or less centralized world
+economy following the period of the 2008-2009 crisis? The theoretical
+literature presents conflicting findings of the 2008-2009 global
+economic crisis’ impact on economic globalization and the world economy
+in general. To adjudicate between these claims I conduct a network
+analysis of international trade networks over nine points in time
+between 2001 and 2017. Results from this study demonstrate that there
+are significant increases in the distribution of ties that is showing
+that the international trade network has become more decentralized as a
+consequence. This study elucidates the role of trade networks play in
+maintaining an open international economy despite the devastating impact
+of the 2008-2009 crisis on the world economy.</p>
+<center>
+<img src="images/density_centralization.png" width="75%" height="75%">
+</center>
+<hr />
+</div>
+<div
+id="the-coreperiphery-structure-of-the-world-economy-in-the-wake-of-the-2008-2009-gec"
+class="section level2">
+<h2><span style="color: #002A5E;"><strong>The Core/Periphery Structure
+of the World Economy in the Wake of the 2008-2009
+GEC</strong></span></h2>
+<p><em>Did the 2008-2009 Global Economic Crisis change the hierarchy of
+the world economic system?</em></p>
+<p>Findings from my research shows that over the past two decades the
+world economy has experienced two long-term development trends: the
+growing influence of emerging economies on the structure of the world
+economy and declining influence from historically dominant economies
+from Global North countries such as the US, UK and Japan. A key reason
+has been the increasing trade relations within and between regions
+commonly associated with the Global South, including Latin America,
+Sub-Saharan Africa, South and West Asia, North Africa and the Middle
+East, which are mediated by large emerging economies such as China,
+India, Brazil and South Africa. During and immediately after the crisis,
+these large emerging economies facilitated and expanded transnational
+links for smaller developing economies across the Global South, and thus
+provide further empirical evidence that the crisis facilitated increased
+Global South-to-South Cooperation across the international trade
+network. As a result, the hierarchy of the world economy has become less
+vertical and more horizontal. However, historically marginalized
+countries in Sub-Saharan Africa and smaller island nations remain at the
+periphery of the international trade network.</p>
+<p><br></p>
+<strong>The Core/Periphery Structure in 2001</strong>
+<center>
+<img src="images/core_periphery_2001.png" width="90%" height="75%">
+</center>
+</br> <br> <strong>The Core/Periphery Structure in 2011</strong>
+<center>
+<img src="images/core_periphery_2011.png" width="90%" height="75%">
+</center>
+<p></br></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
