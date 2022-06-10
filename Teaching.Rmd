@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+---
+
+<h2>**Teaching as a Social Act**</h2>
+I am the son of immigrant farm workers from Mexico and a first-generation college student that started his academic career at a community college. Well-aware and sympathetic to the needs of a growing diverse student population, I strive to engage with these students and nurture meaningful mentoring relationships that help them succeed academically and professionally.
+
+My teaching interests include globalization and quantitative methods. Below are class syllabi and information regarding my teaching experience.
+
+----
+
+<h2><span style="color: #002A5E;">**Instructor of Record**</span></h2>
+
+Syllabi
+
+[Globalization: Theory and Research](https://github.com/martin726/martin_jacinto_website/raw/gh-pages/syllabus_globalization.pdf)
+
+[Statistics for the Social Sciences](https://github.com/martin726/martin_jacinto_website/raw/gh-pages/syllabus_statistics.pdf)
+
+---
+
+<h2><span style="color: #002A5E;">**Teaching Assistant**</span></h2>
+
+### University of California, Irvine
+
+  * Graduate Statistics for Sociology and Demographic Analysis, I, II, III
+  * Statistics for Sociology, I, II, III
+  * Sociology of Birth, Death & Migration
+  * Sociological Theory
+  * Introduction to Sociology
+  
+### University of California, Santa Barbara
+
+  * Beginning Spanish, I
+  * Beginning Spanish, II
+  * Latin American and Iberian Studies
+
+
+
+
