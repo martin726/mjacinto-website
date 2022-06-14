@@ -10,35 +10,55 @@ Economic markets are now more global than ever before. People, firms, organizati
 
 My research applies a social network perspective to triangulate a link between economic global trade, economic crises, and economic productivity at both the macro- and micro-levels of the world economy. I seek to answer the following:
 
-  * *How did the 2008-2009 Global Economic Crisis affect inequalities between and within countries?* 
-  * *Did the 2008 impede further economic globalization in the world economy? Or did the crisis gave way to greater globalization?*
-  * *In what ways did these global networks respond and adapt to a large-scale global economic crisis?*
+  * *How did the recession following the 2008-09 global financial crisis affect inequalities between and within nation-states?* 
+  * *How did the 2008-09 crisis affect economic globalization in the world economy?*
+  * *How did a nation-state's position in the global trade network mediate their economic productivity following the 2008-09 crisis?* 
 
-Below are snapshots of my research projects that are dedicated to the study of crisis, globalization, and inequality.
-
-----
-
-## <span style="color: #002A5E;">**Density and Centralization in the International Trade Network after the 2008-2009 GEC**</span>
-
-*Did the 2008-2009 global economic crisis make the world economy less interconnected?* The collapse of the US subprime mortgage market triggered a global economic recession that brought the largest economies in the world to near collapse. The crisis' widespread impact on the world economy underscored the role of economic globalization--in the form of globalized trade, production, and finance--in facilitating the speed and transmission of the crisis' widespread impact. While there is considerable agreement that the crisis had an effect on economic relations between markets, nation-states, firms, and regions, there is less agreement on how, much less whether, the crisis affected this long-standing trend of greater global interconnectedness. Two central research questions guide this investigation. First, does the international network continually exhibit a significant decrease, increase, or no change in global interconnectedness? Second, does the world economy, as a result, exhibit a more or less centralized world economy following the period of the 2008-2009 crisis? The theoretical literature presents conflicting findings of the 2008-2009 global economic crisis' impact on economic globalization and the world economy in general. To adjudicate between these claims I conduct a network analysis of international trade networks over nine points in time between 2001 and 2017. Results from this study demonstrate that there are significant increases in the distribution of ties that is showing that the international trade network has become more decentralized as a consequence. This study elucidates the role of trade networks play in maintaining an open international economy despite the devastating impact of the 2008-2009 crisis on the world economy.
-
-<center><img src="images/density_centralization.png" width="75%" height="75%"></center>
-
+Below are snapshots of my research projects that are dedicated to the study of crisis, globalization, and structural inequality at the macro-level of the world economy.
 
 ----
 
-## <span style="color: #002A5E;">**The Core/Periphery Structure of the World Economy in the Wake of the 2008-2009 GEC**</span>
+<h2>Density and Centralization in the Global Trade Network</h2>
 
-*Did the 2008-2009 Global Economic Crisis change the hierarchy of the world economic system?*
+The size and density of a social network are important indicators for measuring network connectivity. **Network size** refers to the number of nodes in a network and is critical for the structure of social relations and formation of hierarchies within the network. The **density** of a graph measures of how many ties between actors exist compared to how many ties between actors are possible.
 
-Findings from my research shows that over the past two decades the world economy has experienced two long-term development trends: the growing influence of emerging economies on the structure of the world economy and declining influence from historically dominant economies from Global North countries such as the US, UK and Japan. A key reason has been the increasing trade relations within and between regions commonly associated with the Global South, including Latin America, Sub-Saharan Africa, South and West Asia, North Africa and the Middle East, which are mediated by large emerging economies such as China, India, Brazil and South Africa. During and immediately after the crisis, these large emerging economies facilitated and expanded transnational links for smaller developing economies across the Global South, and thus provide further empirical evidence that the crisis facilitated increased Global South-to-South Cooperation across the international trade network. As a result, the hierarchy of the world economy has become less vertical and more horizontal. However, historically marginalized countries in Sub-Saharan Africa and smaller island nations remain at the periphery of the international trade network. 
+<h4>**In- and Out-Degree Centralization**</h4>
+
+**Degree centralization**– The distribution of influence and prestige in the network.
+When network ties are directed, we factor both the volume of ties sent (out-degree) and ties received (in-degree).
+
+<span style="color:green;">**Out-degree centralization**</span> typically indicates influence.
+
+<span style="color:#FFA500;">**In-degree centralization**</span> indicates prestige or popularity.
+<br></br>
+
+<h4 style="text-align:center; color:#254117;"><u>Examples of networks with high and low degree centralization</u></h4>
+
+<center><img src="images/sample_centralization.png" width="65%" height="65%"/></center>
+
+<h4 style="text-align:center; color:#254117;"><u>Density and Degee Centralization in the Global Trade Network</u></h4>
+<br>
+<center><img src="images/density_centralization.png" width="75%" height="75%"/></center>
+</br>
+
+----
+
+<h2>The Core-Periphery Structure of the Global Trade Network</h2>
+
+Globalization in the late 20th century has given rise to a global international division of labor that was segmented into a core-periphery structure. In social network analysis, the core-periphery structure is an elemental network pattern that refers to the presence of two qualitatively distinct components: a dense "core" of tightly connected actors and a sparse “periphery” of actors that are tightly connected to the core and loosely among each other. In the case of global trade, the core are highly interconnected with most other nation-states across the entire global economic system whereas peripheral nation-states, on the other hand, are the least interconnected and mainly depend on their trade relationships with the core. 
+
+<center><img src="images/simulated_cpstructure.png" width="90%" height="75%"></center>
 
 <br>
+<h3>The Core/Periphery Structure in 2007</h3>
+<center><img src="images/core_periphery_plot_2007.png" width="75%" height="75%"></center>
+</br>
 
-**The Core/Periphery Structure in 2001**
-<center><img src="images/core_periphery_2001.png" width="90%" height="75%"></center>
-</br>
 <br>
-**The Core/Periphery Structure in 2011**
-<center><img src="images/core_periphery_2011.png" width="90%" height="75%"></center>
+<h3>The Core-Periphery Structure in 2011</h3>
+<center><img src="images/core_periphery_plot_2011.png" width="75%" height="75%"></center>
 </br>
+
+<br>
+<h3>The top 20 nation-states in the core-periphery structure</h3>
+<center><img src="images/top20_coreness_plots.png" width="75%" height="75%"></center>
