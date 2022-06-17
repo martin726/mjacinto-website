@@ -4,6 +4,7 @@ title: "Research"
 
 ----
 
+<h3>**Global Economic Crisis, Globalization, and Inequality**</h3>
 Sociologists have long been interested in the effects of economic globalization on the lives of local communities across the world. Over the past 30 years, growing international trade has resulted in greater worldwide integration of national, regional, and domestic economies into the world economy. As a result, multilateral trade has become reliant on large and complex interconnected networks of production and trade in which the contemporary world economy now rests upon. Yet, despite unprecedented economic globalization in recent years, greater interconnectedness has reshaped economic inequalities between and within nation-states.
 
 Economic markets are now more global than ever before. People, firms, organizations, and governments invest in markets all over the world. As a consequence, economic downturns in one country transmit across the globe at an unprecedented speed and magnitude. Case in point, the 2008 collapse of the US housing market quickly spread across the world economy. The economic globalization of the past 30 years laid the groundwork for the worldwide market turmoil that came from the 2008-2009 Global Economic Crisis. However, the literature remains unclear as to the long-lasting effects of the 2008-2009 global economic crisis on economic globalization. 
@@ -11,7 +12,7 @@ Economic markets are now more global than ever before. People, firms, organizati
 My research applies a social network perspective to triangulate a link between economic global trade, economic crises, and economic productivity at both the macro- and micro-levels of the world economy. I seek to answer the following:
 
   * *How did the recession following the 2008-09 global financial crisis affect inequalities between and within nation-states?* 
-  * *How did the 2008-09 crisis affect economic globalization in the world economy?*
+  * *How did the 2008-09 crisis affect economic globalization across the world economy?*
   * *How did a nation-state's position in the global trade network mediate their economic productivity following the 2008-09 crisis?* 
 
 Below are snapshots of my research projects that are dedicated to the study of crisis, globalization, and structural inequality at the macro-level of the world economy.
@@ -62,3 +63,5 @@ Globalization in the late 20th century has given rise to a global international 
 <br>
 <h3>The top 20 nation-states in the core-periphery structure</h3>
 <center><img src="images/top20_coreness_plots.png" width="75%" height="75%"></center>
+
+<p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>

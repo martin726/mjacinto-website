@@ -2,6 +2,8 @@
 title: "TEACHING"
 ---
 
+---
+
 <h3>**TEACHING PHILOSOPHY**</h3>
 I am the son of immigrant farm workers from Mexico and a first-generation college student. My academic trajectory began at [Ventura Community College](https://www.venturacollege.edu/) and am proud to be a former community college student. Well-aware and sympathetic to the needs of a growing diverse student population, I strive to engage with these students and nurture meaningful mentoring relationships that help them succeed academically and professionally. Additionally, I acknowledge that pedagogical approaches must continually grow and develop to adapt to the dynamic needs of students. 
 
@@ -29,9 +31,9 @@ I am dedicated to not only teaching my students, but empowering them to further 
 
 ---
 
-<h3>**PROFESSIONAL EXPERIENCE**</h3>
+<h2>**PROFESSIONAL EXPERIENCE**</h2>
 
-<h2><span style="color: #002A5E;">**Instructor**</span></h2>
+<h3>**Instructor**</h3>
 
 ### California State University, Long Beach - 2021-2022
   
@@ -50,7 +52,7 @@ I am dedicated to not only teaching my students, but empowering them to further 
   * Sociology/Anthropology 10B: Statistics and Probability, II (online) 
   * Statistics Bootcamp Refresher (in-person, online) 
 
-<h2><span style="color: #002A5E;">**Teaching Assistant**</span></h2>
+<h3>**Teaching Assistant**</h3>
 
 ### University of California, Irvine - 2016-2022
 
@@ -65,6 +67,10 @@ I am dedicated to not only teaching my students, but empowering them to further 
   * Beginning Spanish, I
   * Beginning Spanish, II
   * Latin American and Iberian Studies
+
+---
+
+<p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
 
 
 
