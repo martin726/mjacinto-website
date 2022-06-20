@@ -28,3 +28,6 @@ In January 2020, I worked with UCI's [Student Outreach and Retention (SOAR) Cent
 <img align="right" src="images/gapp1.jpg" width="450px" style="border:black; border-width:2px; border-style:inset;">
 
 <img align="left" src="images/gapp2.jpg" width="450px" style="border:black; border-width:2px; border-style:inset;">
+
+---
+<p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
