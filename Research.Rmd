@@ -46,7 +46,7 @@ When network ties are directed, we factor both the volume of ties sent (out-degr
 
 <h2>The Core-Periphery Structure of the Global Trade Network</h2>
 
-Globalization in the late 20th century has given rise to a global international division of labor that was segmented into a core-periphery structure. In social network analysis, the core-periphery structure is an elemental network pattern that refers to the presence of two qualitatively distinct components: a dense "core" of tightly connected actors and a sparse “periphery” of actors that are tightly connected to the core and loosely among each other. In the case of global trade, the core are highly interconnected with most other nation-states across the entire global economic system whereas peripheral nation-states, on the other hand, are the least interconnected and mainly depend on their trade relationships with the core. 
+Globalization in the late 20th century has given rise to a global international division of labor that has segmented into a core-periphery structure. In social network analysis, the core-periphery structure is an elemental network pattern that refers to the presence of two qualitatively distinct components: a dense "core" of tightly connected actors and a sparse “periphery” of actors that are tightly connected to the core and loosely among each other. In the case of global trade, the core are highly interconnected with most other nation-states across the entire global economic system whereas peripheral nation-states, on the other hand, are the least interconnected and mainly depend on their economic relations with the core. 
 
 <center><img src="images/simulated_cpstructure.png" width="90%" height="75%"></center>
 
@@ -64,4 +64,5 @@ Globalization in the late 20th century has given rise to a global international 
 <h3>The top 20 nation-states in the core-periphery structure</h3>
 <center><img src="images/top20_coreness_plots.png" width="75%" height="75%"></center>
 
+---
 <p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
