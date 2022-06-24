@@ -15,7 +15,7 @@ My research applies a social network perspective to triangulate a link between e
   * *How did the 2008-09 crisis affect economic globalization across the world economy?*
   * *How did a nation-state's position in the global trade network mediate their economic productivity following the 2008-09 crisis?* 
 
-Below are snapshots of my research projects that are dedicated to the study of crisis, globalization, and structural inequality at the macro-level of the world economy.
+Below are snapshots of my research projects that are dedicated to the study of crisis, globalization, and structural inequality at the macro-level of the world economy. Using international trade data from the International Monetary Fund's [*Direction of Trade Statistics*](https://data.imf.org/?sk=9D6028D4-F14A-464C-A2F2-59B2CD424B85), I constructed network trade data of over 191 countries across a 17-year time-period (2001-2018). 
 
 ----
 
