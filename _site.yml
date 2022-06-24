@@ -3,7 +3,6 @@ navbar:
   title: "Martín Jacinto"
   left:
     - text: "Home"
-      icon: fa-home
       href: index.html
     - text: "Research"
       href: Research.html
