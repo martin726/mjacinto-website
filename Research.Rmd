@@ -33,10 +33,6 @@ When network ties are directed, we factor both the volume of ties sent (out-degr
 <span style="color:#FFA500;">**In-degree centralization**</span> indicates prestige or popularity.
 <br></br>
 
-<h4 style="text-align:center; color:#254117;"><u>Examples of networks with high and low degree centralization</u></h4>
-
-<center><img src="images/sample_centralization.png" width="65%" height="65%"/></center>
-
 <h4 style="text-align:center; color:#254117;"><u>Density and Degee Centralization in the Global Trade Network</u></h4>
 <br>
 <center><img src="images/density_centralization.png" width="75%" height="75%"/></center>
