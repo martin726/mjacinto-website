@@ -23,11 +23,8 @@ title: "About Me"
 ```
 <figure_side style = "float: right"> <img src="images/mj.photo.2.jpg" width="350px" hspace="30" vspace="30" style="border:black; border-width:2px; border-style:inset;"/> </figure_side>
 
-<font size="4.5">As a first-generation college graduate and a former community college transfer student (Ventura Community College), I carry immense pride in my heritage as the son of Mexican immigrants. My hometown, Santa Paula, holds a special place in my heart, and I celebrate its influence on my journey. I love teaching!!
+<font size="4.5">As a first-generation college graduate and a former community college transfer student (Ventura Community College), I carry immense pride in my heritage as the son of Mexican immigrants. My hometown, Santa Paula, holds a special place in my heart, and I celebrate its influence on my journey. 
 
-<<<<<<< Updated upstream
-<font size="4.5">As a first-generation college graduate and a former community college transfer student (Ventura Community College), I carry immense pride in my heritage as the son of Mexican immigrants. My hometown, Santa Paula, holds a special place in my heart, and I celebrate its influence on my journey.
-=======
 I earned my Ph.D. and a M.A. in Sociology from the University of California, Irvine in 2022. I also have a M.A. in Latin American and Iberian Studies and a B.A. in Political Science from the University of California, Santa Barbara. In 2022, I joined the [College of Behavioral and Social Sciences at California State University, Chico](https://catalog.csuchico.edu/colleges-departments/college-behavioral-social-sciences/sociology/#text) as an Assistant Professor of Sociology. My primary teaching and research specializations include global political economy, development, economic sociology, inequality and stratification, social network analysis, and quantitative research methods. I also have experience as a researcher specializing in end-to-end design and execution of mixed methods research (quantitative and qualitative) including survey design and analysis, Bayesian statistics, time-series, and analysis of social networks. Finally, I'm passionate about using data to tell stories that engage audiences with rich, high-quality content and accessible language.
 >>>>>>> Stashed changes
 
@@ -39,9 +36,6 @@ Prior to joining Chico State in 2022, I was a UC Irvine Kugelman Citizen Peacebu
 
 ------------------------------------------------------------------------
 
-<<<<<<< Updated upstream
 ----
-<p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
-=======
 <p>Copyright © `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
->>>>>>> Stashed changes
+
