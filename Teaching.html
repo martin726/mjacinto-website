@@ -13,7 +13,7 @@
 
 <title>TEACHING</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -298,66 +299,43 @@ $(document).ready(function () {
 <h3>
 <strong>TEACHING PHILOSOPHY</strong>
 </h3>
-<p>I am the son of immigrant farm workers from Mexico and a
-first-generation college student. My academic trajectory began at <a
-href="https://www.venturacollege.edu/">Ventura Community College</a> and
-am proud to be a former community college student. Well-aware and
-sympathetic to the needs of a growing diverse student population, I
-strive to engage with these students and nurture meaningful mentoring
-relationships that help them succeed academically and professionally.
-Additionally, I acknowledge that pedagogical approaches must continually
-grow and develop to adapt to the dynamic needs of students.</p>
-<p>My pedagogical practices focus on student-centered learning that
-stimulates student engagement with the course material. Specifically, I
-integrate active-learning strategies into my teaching to foster and
-invigorate an inclusive and equitable learning environment. More
-importantly, as a first-generation Latino educator, I ensure that
-diversity, equity, and inclusion is not only acknowledged in the
-classroom but integrated into the course curriculum.</p>
-<p>I am dedicated to not only teaching my students, but empowering them
-to further apply their sociological knowledge to public affairs and
-community programs by conducting their own independent research. By
-mentoring a student’s growth as a researcher, students also learn to
-hone their voice and articulate their research to wider audiences. In
-doing so, I hope to assist my students’ development as an actively
-participating member of the civic society where they may advocate on
-their own behalf, define their own futures, and inspire the next
-generation. As such, I am committed and ready to contribute to the
-sociology program’s learning objectives of developing students’
-sociological imagination while also preparing them for graduate studies
-and careers in criminal justice, law, social services, complex
-organizations, and teaching.</p>
-<hr />
-<h3>
-<strong>PEDAGOGICAL DEVELOPMENT</strong>
-</h3>
-<h4>
-<strong>Pedagogical Fellow - 2019-2020</strong>
-</h4>
-<ul>
-<li><p>Facilitated interactive workshops designed to provide new
-Teaching Assistants (TAs) with skills and information that helped them
-jumpstart their teaching careers at the UC Irvine.</p></li>
-<li><p>Assessed other fellows’ teaching performance by conducting
-in-class observation of their teaching then provided one-on-one
-consultation and feedback</p></li>
-<li><p>Worked with department director on developing an application and
-selection process of new Pedagogical Fellows that protected against
-selection bias, created an inclusive experience, and streamlined an
-effective interviewing process</p></li>
-</ul>
-<h4>
-<strong>Division of Teaching Excellence and Innovation (DTEI) Summer
-Fellows Program Coordinator - 2020-2021</strong>
-</h4>
-<ul>
-<li><p>Supported the university in fast-tracking the development of a
-pedagogical training program that prepares faculty and graduate students
-to effectively transition to online remote instruction</p></li>
-<li><p>Managed and supervised the pedagogical training of 50 fellows and
-faculty from various disciplines across different areas such as STEM,
-Social Sciences, Humanities and the Arts.</p></li>
-</ul>
+<p><font size="4">As a first-generation college student, I embarked on a
+journey of learning and discovery, starting humbly at Ventura Community
+College, advancing through the halls of UC Santa Barbara, and
+culminating in achieving my Ph.D. from UC Irvine. This path wasn’t just
+a series of academic milestones; it was a voyage through diverse worlds
+of thought, scholarship, and experience, leading me through the realms
+of higher education and into the depths of personal growth and
+understanding.</p>
+<p>In the classrooms where I now stand, I see reflections of my own
+journey in my students’ eyes. These diverse, eager minds come from all
+walks of life, each with a unique story. I remember the challenges I
+faced and the barriers I overcame, and it fuels my commitment to them.
+Through mentorship, I don’t just teach; I connect, understand, and help
+pave their roads to success in academia and beyond.</p>
+<p>My approach to teaching is like crafting a mosaic, where each
+student’s piece is vital to the whole picture. I bring the vibrancy of
+active learning to our space, ensuring that every voice is heard and
+valued. In our inclusive, equitable environment, learning isn’t just
+about facts and theories; it’s a dance of ideas, cultures, and
+perspectives. As a Latino educator, I weave the threads of diversity,
+equity, and inclusion into the fabric of our curriculum. It’s not just a
+policy; it’s a lived experience, a testament to the richness that
+different backgrounds bring to our collective learning.</p>
+<p>But my role extends beyond the classroom. I strive to light a fire in
+each student, empowering them to apply their sociological insights to
+real-world challenges. Guiding them through the intricacies of research,
+I help them find their voice, articulate their thoughts, and project
+their ideas onto larger canvases. In doing so, I am not just teaching
+but cultivating future leaders, thinkers, and change-makers.</p>
+<p>As I stand before my students, I see not just faces in a crowd but
+the future architects of society. They will advocate for change, define
+their destinies, and, in turn, light the way for others. It’s in this
+journey of empowerment and transformation that I find my purpose, ready
+to contribute to the rich tapestry of our sociology program and to guide
+these bright minds towards a world of possibilities in criminal justice,
+law, social services, complex organizations, and the noble field of
+teaching.</font></p>
 <hr />
 <h2>
 <strong>PROFESSIONAL EXPERIENCE</strong>
@@ -365,31 +343,45 @@ Social Sciences, Humanities and the Arts.</p></li>
 <h3>
 <strong>Instructor</strong>
 </h3>
+<div id="california-state-university-chico---2022-present"
+class="section level3">
+<h3>California State University, Chico - 2022-Present</h3>
+<ul>
+<li><font size="2.5">Contemporary Social Theory (in-person, online)</li>
+<li>Classical Social Theory (in-person, online)</li>
+<li>Global Problems (online)</li>
+<li>Global Perspectives on Ethnicity and Nationality (online)</li>
+<li>Food Justice (online)</li>
+<li>Sociology of Gangs (online) </font></li>
+</ul>
+</div>
 <div id="california-state-university-long-beach---2021-2022"
 class="section level3">
 <h3>California State University, Long Beach - 2021-2022</h3>
 <ul>
-<li>Modern Sociological Theory (in-person)</li>
+<li><font size="2.5">Modern Sociological Theory (in-person)</li>
 <li>Global Conflict and Resolution (in-person)</li>
 <li>Global Sociology (in-person)</li>
-<li>Elementary Statistics (in-person and online)</li>
+<li>Elementary Statistics (in-person and online) </font></li>
 </ul>
 </div>
 <div id="california-state-university-dominguez-hills---2018-2021"
 class="section level3">
 <h3>California State University, Dominguez Hills - 2018-2021</h3>
 <ul>
-<li>Global Organizations and Social Processes (in-person)</li>
+<li><font size="2.5">Global Organizations and Social Processes
+(in-person)</li>
 <li>Globalization: Theory and Research (in-person)</li>
 </ul>
+<p></font></p>
 </div>
 <div id="university-of-california-irvine---2019-2020"
 class="section level3">
 <h3>University of California, Irvine - 2019-2020</h3>
 <ul>
-<li>Sociology/Anthropology 10B: Statistics and Probability, II
-(online)</li>
-<li>Statistics Bootcamp Refresher (in-person, online)</li>
+<li><font size="2.5">Sociology/Anthropology 10B: Statistics and
+Probability, II (online)</li>
+<li>Statistics Bootcamp Refresher (in-person, online) </font></li>
 </ul>
 <h3>
 <strong>Teaching Assistant</strong>
@@ -399,24 +391,56 @@ class="section level3">
 class="section level3">
 <h3>University of California, Irvine - 2016-2022</h3>
 <ul>
-<li>Graduate Statistics for Sociology and Demographic Analysis, I, II,
-III</li>
+<li><font size="2.5">Graduate Statistics for Sociology and Demographic
+Analysis, I, II, III</li>
 <li>Statistics for Sociology, I, II, III</li>
 <li>Sociology of Birth, Death &amp; Migration</li>
 <li>Sociological Theory</li>
-<li>Introduction to Sociology</li>
+<li>Introduction to Sociology </font></li>
 </ul>
 </div>
 <div id="university-of-california-santa-barbara" class="section level3">
 <h3>University of California, Santa Barbara</h3>
 <ul>
-<li>Beginning Spanish, I</li>
+<li><font size="2.5">Beginning Spanish, I</li>
 <li>Beginning Spanish, II</li>
-<li>Latin American and Iberian Studies</li>
+<li>Latin American and Iberian Studies </font></li>
 </ul>
 <hr />
+<h3>
+<strong>PEDAGOGICAL DEVELOPMENT</strong>
+</h3>
+<h4>
+<strong>Pedagogical Fellow - 2019-2020</strong>
+</h4>
+<ul>
+<li><p><font size="2.5">Facilitated interactive workshops designed to
+provide new Teaching Assistants (TAs) with skills and information that
+helped them jumpstart their teaching careers at the UC
+Irvine.</font></p></li>
+<li><p>Assessed other fellows’ teaching performance by conducting
+in-class observation of their teaching then provided one-on-one
+consultation and feedback.</p></li>
+<li><p>Worked with department director on developing an application and
+selection process of new Pedagogical Fellows that protected against
+selection bias, created an inclusive experience, and streamlined an
+effective interviewing process.</p></li>
+</ul>
+<h4>
+<strong>Division of Teaching Excellence and Innovation (DTEI) Summer
+Fellows Program Coordinator - 2020-2021</strong>
+</h4>
+<ul>
+<li><p><font size="2.5">Supported the university in fast-tracking the
+development of a pedagogical training program that prepares faculty and
+graduate students to effectively transition to online remote
+instruction</p></li>
+<li><p>Managed and supervised the pedagogical training of 50 fellows and
+faculty from various disciplines across different areas such as STEM,
+Social Sciences, Humanities and the Arts. </font> —</p></li>
+</ul>
 <p>
-Copyright © 2022 Martín Jacinto. All rights reserved.
+Copyright © 2024 Martín Jacinto. All rights reserved.
 </p>
 </div>
 
