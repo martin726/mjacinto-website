@@ -86,10 +86,11 @@ As I stand before my students, I see not just faces in a crowd but the future ar
 
 <h4>**Division of Teaching Excellence and Innovation (DTEI) Summer Fellows Program Coordinator - 2020-2021**</h4>
 
-* <font size="2.5">Supported the university in fast-tracking the development of a pedagogical training program that prepares faculty and graduate students to effectively transition to online remote instruction 
+* <font size="2.5">Supported the university in fast-tracking the development of a pedagogical training program that prepares faculty and graduate students to effectively transition to online remote instruction.
 
 * Managed and supervised the pedagogical training of 50 fellows and faculty from various disciplines across different areas such as STEM, Social Sciences, Humanities and the Arts.
 </font>
+
 ---
 
 <p>Copyright &copy; `r format(Sys.Date(), '%Y')` Martín Jacinto. All rights reserved.</p>
