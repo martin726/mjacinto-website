@@ -9,8 +9,6 @@ navbar:
       href: Research.html
     - text: "Teaching"
       href: Teaching.html
-    - text: "Mentoring and Service"
-      href: Mentoring_and_Service.html
     - icon: fa-envelope fa-lg
       href: mailto:<mjacinto@csuchico.edu>
     - icon: fa-github fa-lg
